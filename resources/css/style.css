@@ -3,6 +3,7 @@ body {
     height: 100%;
     font-family: "Source Sans Pro", Roboto, sans-serif;
     background: #2C3E50;
+    color: white;
 }
 .title {
     font-variant: normal;
