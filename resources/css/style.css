@@ -1,11 +1,7 @@
 body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    background-image: url(/resources/pics/Prime.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background: #2C3E50;
 }
 .title {
     font-variant: normal;
