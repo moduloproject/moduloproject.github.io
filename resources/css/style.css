@@ -18,3 +18,14 @@ body {
 #intro {
     text-align: center;
 }
+#form > input {
+    height: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    background: white;
+}
+#form > input[type=submit] {
+    background-color: #0095DD;
+    color: white;
+}
