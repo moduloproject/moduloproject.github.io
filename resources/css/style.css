@@ -16,7 +16,6 @@ body {
     overflow: auto;
 }
 
-
 .title2 {
     font-size: 2em;
     font-weight: normal;
@@ -25,4 +24,21 @@ body {
 .paragraph {
     font-size: 1.5em;
     font-weight: normal;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
 }
