@@ -1,8 +1,9 @@
 @import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,300,500);
 
 body {
     height: 100%;
-    font-family: "Source Sans Pro", Roboto, sans-serif;
+    font-family: "Source Sans Pro", "Roboto", sans-serif;
     background: #2C3E50;
     color: white;
 }
@@ -10,23 +11,30 @@ body {
     font-size: 5em;
     font-weight: normal;
 }
-.title2 {
-    font-size: 2em;
-    font-weight: normal;
-}
 #intro {
     max-width: 700px;
     margin: 0 auto;
     overflow: auto;
 }
-a {
-    color: #f00;
+#form {
+    overflow: auto;
+    display: inline-flex;
+    width: 400px;
+    margin-top: 50px;
 }
-.paragraph {
-    font-size: 1.5em;
-    font-weight: normal;
+#form > input {
+    height: 40px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    background: white;
+    float: left;
+    font: inherit;
 }
-
-.black {
-    color: #000;
+#form > input[type="text"] {
+    flex: 1;
+}
+#form > input[type="submit"] {
+    background-color: #0095DD;
+    color: white;
 }
