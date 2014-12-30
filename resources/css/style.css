@@ -22,8 +22,9 @@ body {
 }
 
 /* unvisited link */
-a:link {
+a {
     color: orange;
+    text-decoration: none;
 }
 
 /* mouse over link */
