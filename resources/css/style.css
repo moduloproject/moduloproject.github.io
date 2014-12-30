@@ -16,11 +16,6 @@ body {
     overflow: auto;
 }
 
-.title2 {
-    font-size: 2em;
-    font-weight: normal;
-}
-
 .paragraph {
     font-size: 1.5em;
     font-weight: normal;
@@ -28,17 +23,10 @@ body {
 
 /* unvisited link */
 a:link {
-    color: #FF0000;
-}
-
-/* visited link */
-a:visited {
-    color: #00FF00;
+    color: orange;
 }
 
 /* mouse over link */
 a:hover {
-    color: #000;
-    font-style: italic;
-    font-weight: bold;
+    text-decoration: underline;
 }
