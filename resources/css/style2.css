@@ -27,14 +27,43 @@ body {
     list-style: none;
 }
 
-.menu-list li {
+.menu-list li, .social-list li {
     position: relative;
+    float: left;
 }
 
-.menu-list li a {
+.menu-list li a, .social-list li a {
     display: block;
     height: 60px;
     padding: 0 15px;
     color: #FFF;
     text-decoration: none;
+    line-height: 60px;
 }
+
+.social-list {
+    float: right;
+    list-style: none;
+}
+
+.social-list li a { font-size: 18px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
