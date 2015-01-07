@@ -35,6 +35,7 @@ a:hover {
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
+    display: inline-block;
 }
 #NWin {
     background: url(/resources/pics/NWin.png) no-repeat;
