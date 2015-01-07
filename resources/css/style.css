@@ -29,3 +29,41 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.circular {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+#NWin {
+    background: url(/resources/pics/NWin.png) no-repeat;
+}
+
+#MRistovski {
+    background: url(/resources/pics/MRistovski.jpg) no-repeat;
+}
+
+#DBailey {
+    background: url(/resources/pics/DBailey.jpg) no-repeat;
+}
+
+#ADueppen {
+    background: url(/resources/pics/ADueppen.png) no-repeat;
+}
+
+#TNguyen {
+    background: url(/resources/pics/TNguyen.png) no-repeat;
+}
+
+#MTuts {
+    background: url(/resources/pics/MTuts.png) no-repeat;
+}
+
+#WLambert {
+    background: url(/resources/pics/WLambert.png) no-repeat;
+}
+
+#PLoctaux {
+    background: url(/resources/pics/PLoctaux.jpg) no-repeat;
+}
