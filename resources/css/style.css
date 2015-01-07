@@ -6,29 +6,65 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     background: #2C3E50;
     color: white;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: auto;
 }
 .title {
     font-size: 5em;
     font-weight: normal;
 }
-#intro {
-    max-width: 700px;
-    margin: 0 auto;
-    overflow: auto;
+.title2 {
+    font-size: 2em;
+    font-weight: normal;
 }
-
 .paragraph {
     font-size: 1.5em;
     font-weight: normal;
 }
-
-/* unvisited link */
 a {
     color: orange;
     text-decoration: none;
 }
-
-/* mouse over link */
 a:hover {
     text-decoration: underline;
+}
+.circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    display: inline-block;
+}
+#NWin {
+    background: url(/resources/pics/NWin.png) no-repeat;
+}
+
+#MRistovski {
+    background: url(/resources/pics/MRistovski.jpg) no-repeat;
+}
+
+#DBailey {
+    background: url(/resources/pics/DBailey.jpg) no-repeat;
+}
+
+#ADueppen {
+    background: url(/resources/pics/ADueppen.png) no-repeat;
+}
+
+#TNguyen {
+    background: url(/resources/pics/TNguyen.png) no-repeat;
+}
+
+#MTuts {
+    background: url(/resources/pics/MTuts.png) no-repeat;
+}
+
+#WLambert {
+    background: url(/resources/pics/WLambert.png) no-repeat;
+}
+
+#PLoctaux {
+    background: url(/resources/pics/PLoctaux.jpg) no-repeat;
 }
