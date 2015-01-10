@@ -1,0 +1,20 @@
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
+
+body {
+    height: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    background: #2C3E50;
+    color: #000;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    background-image: url(../404/modulocat.gif);
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.title {
+    font-size: 5em;
+    font-weight: normal;
+}
