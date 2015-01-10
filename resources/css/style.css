@@ -5,7 +5,7 @@ body {
     height: 100%;
     font-family: "Source Sans Pro", sans-serif;
     background: #2C3E50;
-    color: white;
+    color: #fff;
     max-width: 700px;
     margin: 0 auto;
     overflow: auto;
@@ -53,10 +53,6 @@ a:hover {
     background: url(/resources/pics/ADueppen.png) no-repeat;
 }
 
-#TNguyen {
-    background: url(/resources/pics/TNguyen.png) no-repeat;
-}
-
 #MTuts {
     background: url(/resources/pics/MTuts.png) no-repeat;
 }
@@ -67,4 +63,19 @@ a:hover {
 
 #PLoctaux {
     background: url(/resources/pics/PLoctaux.jpg) no-repeat;
+}
+
+.linksTeam {
+  display: inline-block;
+  vertical-align: top;
+  width: 15em;
+  max-width: 100%;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  text-align: center;
+}
+
+.name {
+  display: block;
+  padding: .5em 0;
 }
