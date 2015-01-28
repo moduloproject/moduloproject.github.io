@@ -50,12 +50,3 @@ a:hover {
   display: block;
   padding: .5em 0;
 }
-#banner {
-    background: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 4px calc(50% - 450px);
-    font-size: 16px;
-}
