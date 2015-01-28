@@ -50,3 +50,8 @@ a:hover {
   display: block;
   padding: .5em 0;
 }
+#logo {
+  display: inline;
+  width: 128px;
+  height: 128px;
+}
