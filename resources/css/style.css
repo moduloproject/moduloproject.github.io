@@ -13,6 +13,7 @@ body {
 .title {
     font-size: 5em;
     font-weight: normal;
+    padding-bottom: 20px;
 }
 .title2 {
     font-size: 2em;
