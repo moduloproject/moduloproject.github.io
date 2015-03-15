@@ -3,7 +3,7 @@
 body {
     height: 100%;
     font-family: "Source Sans Pro", sans-serif;
-    background: #2C3E50;
+    background: #212121;
     color: #fff;
     max-width: 900px;
     margin: 0 auto;
@@ -27,7 +27,7 @@ body {
     font-weight: normal;
 }
 a {
-    color: orange;
+    color: #F44336;
     text-decoration: none;
 }
 a:hover {
