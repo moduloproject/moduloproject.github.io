@@ -9,16 +9,16 @@ body {
     margin: 0 auto;
     overflow: auto;
 }
-.title {
+.head {
     font-size: 5em;
     font-weight: normal;
 }
-.title-text {
+.head-text {
     font-size: 5em;
     font-weight: normal;
     padding-top: 18px;
 }
-.title2 {
+.title {
     font-size: 2em;
     font-weight: normal;
 }
@@ -41,7 +41,7 @@ a:hover {
     -moz-border-radius: 150px;
     display: inline-block;
 }
-.linksTeam {
+.team-links {
   display: inline-block;
   vertical-align: top;
   width: 15em;
@@ -54,7 +54,7 @@ a:hover {
   display: block;
   padding: .5em 0;
 }
-#logo {
+.logo {
   float: left;
   width: 128px;
   height: 128px;
