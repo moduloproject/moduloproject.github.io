@@ -3,8 +3,8 @@
 body {
     height: 100%;
     font-family: "Source Sans Pro", sans-serif;
-    background: #212121;
-    color: #fff;
+    background: #eeeeee;
+    color: #212121;
     max-width: 900px;
     margin: 0 auto;
     overflow: auto;
@@ -27,7 +27,7 @@ body {
     font-weight: normal;
 }
 a {
-    color: #F44336;
+    color: #4527a0;
     text-decoration: none;
 }
 a:hover {
