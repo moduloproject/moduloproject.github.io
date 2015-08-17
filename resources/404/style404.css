@@ -1,11 +1,10 @@
-@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
+@import url("https//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
 
 body {
     height: 100%;
     font-family: "Source Sans Pro", sans-serif;
     background: #212121;
     color: #000;
-    max-width: 900px;
     margin: 0 auto;
     overflow: auto;
     background-image: url(modulocat.gif);
@@ -17,4 +16,6 @@ body {
 .title {
     font-size: 5em;
     font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
 }
